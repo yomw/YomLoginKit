@@ -1,0 +1,42 @@
+{
+  "name": "LoginKit",
+  "version": "0.1.0",
+  "summary": "A short description of LoginKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yomw/LoginKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yomw": "guillaume.bellue@dv.fr"
+  },
+  "source": {
+    "git": "https://github.com/yomw/LoginKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LoginKit/Classes/**/*",
+  "resource_bundles": {
+    "LoginKit": [
+      "LoginKit/Localization/*.lproj"
+    ]
+  },
+  "static_framework": true,
+  "dependencies": {
+    "AccountKit": [
+      "~> 5.0"
+    ],
+    "FacebookCore": [
+      "~> 0.7"
+    ],
+    "FacebookLogin": [
+      "~> 0.7"
+    ],
+    "AnimatedField": [
+      "~> 2.2"
+    ]
+  }
+}
