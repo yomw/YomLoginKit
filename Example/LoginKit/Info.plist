@@ -38,11 +38,21 @@
 				<string>fb$(FACEBOOK_APP_ID)</string>
 			</array>
 		</dict>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>$(GOOGLE_CLIENT_ID_REVERSED)</string>
+            </array>
+        </dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>FacebookAppID</key>
-	<string>$(FACEBOOK_APP_ID)</string>
+    <key>FacebookAppID</key>
+    <string>$(FACEBOOK_APP_ID)</string>
+    <key>GoogleClientID</key>
+    <string>$(GOOGLE_CLIENT_ID)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

@@ -17,6 +17,7 @@
 "LoginKit.Signin.native" = "Connexion";
 "LoginKit.Signin.facebook" = "Connexion avec Facebook";
 "LoginKit.Signin.accountKit" = "Connexion avec AccountKit";
+"LoginKit.Signin.google" = "Connexion avec Google";
 "LoginKit.Signin.signup" = "Créer un compte";
 "LoginKit.Signin.reset" = "Mot de passe oublié";
 
@@ -24,6 +25,7 @@
 "LoginKit.Signup.native" = "Inscription";
 "LoginKit.Signup.facebook" = "Inscription avec Facebook";
 "LoginKit.Signup.accountKit" = "Inscription avec AccountKit";
+"LoginKit.Signup.google" = "Inscription avec Google";
 "LoginKit.Signup.signin" = "J'ai déjà un compte";
 
 "LoginKit.Placeholder.email" = "Email";

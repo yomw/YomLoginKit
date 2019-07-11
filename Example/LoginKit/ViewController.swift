@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 
 extension ViewController: LoginDataSource {
     func loginTypes() -> [LoginType] {
-        return [.native, .accountKit, .facebook]
+        return [.native, .accountKit, .facebook, .google]
     }
 }
 
@@ -46,6 +46,8 @@ extension ViewController: LoginDelegate {
             MockServer.signin(facebook: user.token, completion: signinResult)
         case .accountKit:
             MockServer.signin(accountKit: user.token, completion: signinResult)
+        case .google:
+            MockServer.signin(google: user.token, completion: signinResult)
         }
     }
 

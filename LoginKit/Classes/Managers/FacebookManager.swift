@@ -32,6 +32,10 @@ class FacebookManager: NSObject, SigninManager {
             attributedString.addAttribute(.font, value: font, range: range)
         }
         button.setAttributedTitle(attributedString, for: .normal)
+        button.setImage(Images.facebook, for: .normal)
+        button.imageView?.contentMode = .scaleAspectFit
+        button.imageEdgeInsets = UIEdgeInsets(top: 8, left: 0, bottom: 8, right: 20)
+
         button.translatesAutoresizingMaskIntoConstraints = false
         button.heightAnchor.constraint(equalToConstant: 44).isActive = true
         button.layer.cornerRadius = 6

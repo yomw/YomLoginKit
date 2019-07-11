@@ -54,6 +54,11 @@ class MockServer {
             completion(.success(()))
         }
     }
+    static func signin(google: String?, completion: @escaping (Result<Void, ServerError>) -> Void) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            completion(.success(()))
+        }
+    }
 
     // SIGNUP
     static func signup(email: String?, password: String?, completion: @escaping (Result<Void, ServerError>) -> Void) {
@@ -71,6 +76,11 @@ class MockServer {
         }
     }
     static func signup(accountKit: String?, completion: @escaping (Result<Void, ServerError>) -> Void) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            completion(.success(()))
+        }
+    }
+    static func signup(google: String?, completion: @escaping (Result<Void, ServerError>) -> Void) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             completion(.success(()))
         }

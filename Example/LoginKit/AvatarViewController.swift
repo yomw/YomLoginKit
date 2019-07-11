@@ -32,6 +32,8 @@ class AvatarViewController: UIViewController {
             MockServer.signup(facebook: user.token, completion: signupResult)
         case .accountKit:
             MockServer.signup(accountKit: user.token, completion: signupResult)
+        case .google:
+            MockServer.signup(google: user.token, completion: signupResult)
         }
     }
 

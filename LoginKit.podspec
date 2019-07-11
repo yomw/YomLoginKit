@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'LoginKit/Classes/**/*'
   
   s.resource_bundles = {
-    'LoginKit' => ['LoginKit/Localization/*.lproj']
+    'LoginKit' => ['LoginKit/Localization/*.lproj', 'LoginKit/Assets/*.xcassets']
   }
   # s.preserve_paths = "LoginKit/Localization/*.lproj"
 
@@ -43,5 +43,6 @@ TODO: Add long description of the pod here.
   s.dependency 'AccountKit', '~> 5.0'
   s.dependency 'FacebookCore', '~> 0.7'
   s.dependency 'FacebookLogin', '~> 0.7'
+  s.dependency 'GoogleSignIn', '~> 4.4'
   s.dependency 'AnimatedField', '~> 2.2'
 end

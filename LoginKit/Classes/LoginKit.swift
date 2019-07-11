@@ -9,9 +9,9 @@
 import UIKit
 
 public enum LoginType {
-    case facebook, accountKit, native
+    case facebook, accountKit, native, google
 }
-public enum Field { case email, password, facebook, accountKit, other }
+public enum Field { case email, password, facebook, accountKit, google, other }
 
 public protocol LoginDelegate: class {
     func signin(user: User)

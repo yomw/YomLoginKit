@@ -119,7 +119,7 @@
                                     <action selector="createAccount" destination="8gA-2I-4On" eventType="touchUpInside" id="pYp-l2-Uts"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Avatar" translatesAutoresizingMaskIntoConstraints="NO" id="yUP-k2-0AI">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Avatar" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yUP-k2-0AI">
                                 <rect key="frame" x="97.666666666666686" y="140" width="180" height="172"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="180" id="R8s-ZO-8n2"/>
@@ -156,7 +156,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="palm" translatesAutoresizingMaskIntoConstraints="NO" id="4O7-fL-GnC">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Avatar" translatesAutoresizingMaskIntoConstraints="NO" id="RUD-FL-ECw">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Avatar" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RUD-FL-ECw">
                                 <rect key="frame" x="16" y="69" width="120" height="114.66666666666669"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="pMn-tc-aab"/>

@@ -8,5 +8,10 @@
 
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
+
 ACCOUNT_KIT_CLIENT_TOKEN = b16443521b03db9f7b2a4d300e2bb58d
+
 FACEBOOK_APP_ID = 1977752135792669
+
+GOOGLE_CLIENT_ID = 571365017130-6dafmra3gt8cs4ipcnacj2m73nbs03op.apps.googleusercontent.com
+GOOGLE_CLIENT_ID_REVERSED = com.googleusercontent.apps.571365017130-6dafmra3gt8cs4ipcnacj2m73nbs03op

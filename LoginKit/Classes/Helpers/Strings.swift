@@ -19,6 +19,8 @@ internal enum Strings {
         internal static let facebook = Strings.tr("Localizable", "LoginKit.Signin.facebook")
         // Sign in with AccountKit
         internal static let accountKit = Strings.tr("Localizable", "LoginKit.Signin.accountKit")
+        // Sign in with Google
+        internal static let google = Strings.tr("Localizable", "LoginKit.Signin.google")
         // Create account
         internal static let signup = Strings.tr("Localizable", "LoginKit.Signin.signup")
         // I lost my password
@@ -33,6 +35,8 @@ internal enum Strings {
         internal static let facebook = Strings.tr("Localizable", "LoginKit.Signup.facebook")
         // Sign up with AccountKit
         internal static let accountKit = Strings.tr("Localizable", "LoginKit.Signup.accountKit")
+        // Sign up with Google
+        internal static let google = Strings.tr("Localizable", "LoginKit.Signup.google")
         // I already have an account
         internal static let signin = Strings.tr("Localizable", "LoginKit.Signup.signin")
     }

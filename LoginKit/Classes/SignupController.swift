@@ -80,6 +80,13 @@ class SignupController: UIViewController, LoginKitController {
             managers.append(manager)
         }
 
+        if loginTypes.contains(.google) {
+            let manager = GoogleManager(title: Strings.Signup.google)
+            manager.parent = self
+            manager.views.forEach { form.addArrangedSubview($0) }
+            managers.append(manager)
+        }
+
         form.addArrangedSubview(UIView())
     }
 

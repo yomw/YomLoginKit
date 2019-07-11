@@ -15,15 +15,17 @@
 
 "LoginKit.Signin.title" = "Sign in";
 "LoginKit.Signin.native" = "Sign in";
-"LoginKit.Signin.facebook" = "Sign in with Facebook";
-"LoginKit.Signin.accountKit" = "Sign in with AccountKit";
+"LoginKit.Signin.facebook" = "Sign in using Facebook";
+"LoginKit.Signin.accountKit" = "Sign in using AccountKit";
+"LoginKit.Signin.google" = "Sign in using Google";
 "LoginKit.Signin.signup" = "Create account";
 "LoginKit.Signin.reset" = "I lost my password";
 
 "LoginKit.Signup.title" = "Sign up";
 "LoginKit.Signup.native" = "Sign up";
-"LoginKit.Signup.facebook" = "Sign up with Facebook";
-"LoginKit.Signup.accountKit" = "Sign up with AccountKit";
+"LoginKit.Signup.facebook" = "Sign up using Facebook";
+"LoginKit.Signup.accountKit" = "Sign up using AccountKit";
+"LoginKit.Signup.google" = "Sign up using Google";
 "LoginKit.Signup.signin" = "I already have an account";
 
 "LoginKit.Placeholder.email" = "Email";
