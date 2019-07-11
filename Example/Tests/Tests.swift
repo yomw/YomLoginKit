@@ -1,5 +1,5 @@
 import XCTest
-import YomLoginKit
+import LoginKit
 
 class Tests: XCTestCase {
     

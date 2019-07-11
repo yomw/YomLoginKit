@@ -1,9 +1,11 @@
 use_frameworks!
+platform :ios, '10.0'
 
-target 'YomLoginKit_Example' do
-  pod 'YomLoginKit', :path => '../'
+target 'LoginKit_Example' do
+  pod 'LoginKit', :path => '../'
+  pod 'IHProgressHUD'
 
-  target 'YomLoginKit_Tests' do
+  target 'LoginKit_Tests' do
     inherit! :search_paths
 
     

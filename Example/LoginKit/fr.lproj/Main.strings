@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "you're logged in!"; ObjectID = "1cy-Yd-MJO"; */
+"1cy-Yd-MJO.text" = "vous êtes connecté !";
+
+/* Class = "UIButton"; normalTitle = "Create my Account!"; ObjectID = "2dh-of-YC1"; */
+"2dh-of-YC1.normalTitle" = "Créer mon compte !";
+
+/* Class = "UIButton"; normalTitle = "Enter"; ObjectID = "3iq-Hl-Nte"; */
+"3iq-Hl-Nte.normalTitle" = "Démarrer";
+
+/* Class = "UILabel"; text = "Congratulation,"; ObjectID = "ZZ0-HN-joa"; */
+"ZZ0-HN-joa.text" = "Félicitations,";
+
+/* Class = "UILabel"; text = "LoginKit"; ObjectID = "ptF-w9-7VJ"; */
+"ptF-w9-7VJ.text" = "LoginKit";
+
+/* Class = "UIButton"; normalTitle = "log out"; ObjectID = "tN3-OI-EPD"; */
+"tN3-OI-EPD.normalTitle" = "déconnexion";

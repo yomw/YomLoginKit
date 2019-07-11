@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		884F465040470FECFA184CBB /* Pods_YomLoginKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68E25350AAF6A50999BFE7A /* Pods_YomLoginKit_Example.framework */; };
-		90CA2B9EDC69052930F97B02 /* Pods_YomLoginKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03B37A47D6F5A972792848C /* Pods_YomLoginKit_Tests.framework */; };
+		A086625E62975977CEBC5F18 /* Pods_LoginKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955997E8BC0717F8E84C31D9 /* Pods_LoginKit_Example.framework */; };
+		E979AEEB22D74F6300DF35F3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9D2A95522D7386D007B5418 /* Localizable.strings */; };
+		E9D2A94222D6359F007B5418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A93D22D6359F007B5418 /* AppDelegate.swift */; };
+		E9D2A94322D6359F007B5418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A93E22D6359F007B5418 /* ViewController.swift */; };
+		E9D2A94522D6359F007B5418 /* MockServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A94022D6359F007B5418 /* MockServer.swift */; };
+		E9D2A94B22D63B8F007B5418 /* AvatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A94A22D63B8F007B5418 /* AvatarViewController.swift */; };
+		E9D2A94D22D6411C007B5418 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D2A94C22D6411C007B5418 /* Images.xcassets */; };
+		F53024F1D1BAF181917C3467 /* Pods_LoginKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E9DF0BF14E99325321973D /* Pods_LoginKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,30 +26,36 @@
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = YomLoginKit;
+			remoteInfo = LoginKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		424CC71C7368371453B931D2 /* YomLoginKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YomLoginKit.podspec; path = ../YomLoginKit.podspec; sourceTree = "<group>"; };
-		4527D3066620019797A6856B /* Pods-YomLoginKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YomLoginKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YomLoginKit_Tests/Pods-YomLoginKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4764F9F1C55D992C7D507FCA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		51BECE4E2C9FACE13243D8D9 /* Pods-YomLoginKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YomLoginKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-YomLoginKit_Tests/Pods-YomLoginKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* YomLoginKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YomLoginKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		424CC71C7368371453B931D2 /* LoginKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LoginKit.podspec; path = ../LoginKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4764F9F1C55D992C7D507FCA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* LoginKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* YomLoginKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YomLoginKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* LoginKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8F34B4099CF87A86EE7E87DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		910E98BF98889F6E1ADCBB18 /* Pods-YomLoginKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YomLoginKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-YomLoginKit_Example/Pods-YomLoginKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A03B37A47D6F5A972792848C /* Pods_YomLoginKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YomLoginKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5A9185173D3B65C099EC4B4 /* Pods-YomLoginKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YomLoginKit_Example.release.xcconfig"; path = "Target Support Files/Pods-YomLoginKit_Example/Pods-YomLoginKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D68E25350AAF6A50999BFE7A /* Pods_YomLoginKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YomLoginKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		682E2DA7A663EE5CCCFE4373 /* Pods-LoginKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginKit_Example.release.xcconfig"; path = "Target Support Files/Pods-LoginKit_Example/Pods-LoginKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8F34B4099CF87A86EE7E87DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		929AE0D0C6935DA4901D6E67 /* Pods-LoginKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LoginKit_Tests/Pods-LoginKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		955997E8BC0717F8E84C31D9 /* Pods_LoginKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1342A84A9FBFEF7D04762F8 /* Pods-LoginKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-LoginKit_Example/Pods-LoginKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E1E9DF0BF14E99325321973D /* Pods_LoginKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E979AEE922D74C4500DF35F3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		E979AEEA22D74C4600DF35F3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E9D2A93D22D6359F007B5418 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = LoginKit/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		E9D2A93E22D6359F007B5418 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = LoginKit/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		E9D2A94022D6359F007B5418 /* MockServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MockServer.swift; path = LoginKit/MockServer.swift; sourceTree = SOURCE_ROOT; };
+		E9D2A94622D635C3007B5418 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LoginKit/Info.plist; sourceTree = SOURCE_ROOT; };
+		E9D2A94722D635C3007B5418 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Config.xcconfig; path = LoginKit/Config.xcconfig; sourceTree = SOURCE_ROOT; };
+		E9D2A94A22D63B8F007B5418 /* AvatarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViewController.swift; sourceTree = "<group>"; };
+		E9D2A94C22D6411C007B5418 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9D2A95422D7386D007B5418 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF3CFC9F513412C29B115C8C /* Pods-LoginKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-LoginKit_Tests/Pods-LoginKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				884F465040470FECFA184CBB /* Pods_YomLoginKit_Example.framework in Frameworks */,
+				A086625E62975977CEBC5F18 /* Pods_LoginKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90CA2B9EDC69052930F97B02 /* Pods_YomLoginKit_Tests.framework in Frameworks */,
+				F53024F1D1BAF181917C3467 /* Pods_LoginKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +81,8 @@
 		1E3C6D86684F970D478C7911 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D68E25350AAF6A50999BFE7A /* Pods_YomLoginKit_Example.framework */,
-				A03B37A47D6F5A972792848C /* Pods_YomLoginKit_Tests.framework */,
+				955997E8BC0717F8E84C31D9 /* Pods_LoginKit_Example.framework */,
+				E1E9DF0BF14E99325321973D /* Pods_LoginKit_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,12 +90,11 @@
 		2DBB06DD8C082B9FD2878099 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				910E98BF98889F6E1ADCBB18 /* Pods-YomLoginKit_Example.debug.xcconfig */,
-				C5A9185173D3B65C099EC4B4 /* Pods-YomLoginKit_Example.release.xcconfig */,
-				4527D3066620019797A6856B /* Pods-YomLoginKit_Tests.debug.xcconfig */,
-				51BECE4E2C9FACE13243D8D9 /* Pods-YomLoginKit_Tests.release.xcconfig */,
+				C1342A84A9FBFEF7D04762F8 /* Pods-LoginKit_Example.debug.xcconfig */,
+				682E2DA7A663EE5CCCFE4373 /* Pods-LoginKit_Example.release.xcconfig */,
+				929AE0D0C6935DA4901D6E67 /* Pods-LoginKit_Tests.debug.xcconfig */,
+				EF3CFC9F513412C29B115C8C /* Pods-LoginKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -94,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for YomLoginKit */,
+				607FACD21AFB9204008FA782 /* Example for LoginKit */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				2DBB06DD8C082B9FD2878099 /* Pods */,
@@ -105,30 +113,34 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* YomLoginKit_Example.app */,
-				607FACE51AFB9204008FA782 /* YomLoginKit_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* LoginKit_Example.app */,
+				607FACE51AFB9204008FA782 /* LoginKit_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for YomLoginKit */ = {
+		607FACD21AFB9204008FA782 /* Example for LoginKit */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				E9D2A93D22D6359F007B5418 /* AppDelegate.swift */,
+				E9D2A93E22D6359F007B5418 /* ViewController.swift */,
+				E9D2A94A22D63B8F007B5418 /* AvatarViewController.swift */,
+				E9D2A94022D6359F007B5418 /* MockServer.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				E9D2A94C22D6411C007B5418 /* Images.xcassets */,
 			);
-			name = "Example for YomLoginKit";
-			path = YomLoginKit;
+			name = "Example for LoginKit";
+			path = LoginKit;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD41AFB9204008FA782 /* Info.plist */,
+				E9D2A94722D635C3007B5418 /* Config.xcconfig */,
+				E9D2A94622D635C3007B5418 /* Info.plist */,
+				E9D2A95522D7386D007B5418 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,7 +165,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				424CC71C7368371453B931D2 /* YomLoginKit.podspec */,
+				424CC71C7368371453B931D2 /* LoginKit.podspec */,
 				8F34B4099CF87A86EE7E87DD /* README.md */,
 				4764F9F1C55D992C7D507FCA /* LICENSE */,
 			);
@@ -163,28 +175,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* YomLoginKit_Example */ = {
+		607FACCF1AFB9204008FA782 /* LoginKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "YomLoginKit_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LoginKit_Example" */;
 			buildPhases = (
 				1DE3E74714CE605FFDDF5C28 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				6C7595A559EE3D0006C98C58 /* [CP] Embed Pods Frameworks */,
+				47A3CF11B9CA6D07F5A82E06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = YomLoginKit_Example;
-			productName = YomLoginKit;
-			productReference = 607FACD01AFB9204008FA782 /* YomLoginKit_Example.app */;
+			name = LoginKit_Example;
+			productName = LoginKit;
+			productReference = 607FACD01AFB9204008FA782 /* LoginKit_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* YomLoginKit_Tests */ = {
+		607FACE41AFB9204008FA782 /* LoginKit_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "YomLoginKit_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LoginKit_Tests" */;
 			buildPhases = (
 				E7B3C7951A26352FE84DF90E /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -196,9 +209,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = YomLoginKit_Tests;
+			name = LoginKit_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* YomLoginKit_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* LoginKit_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +221,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -222,21 +235,22 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "YomLoginKit" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "LoginKit" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* YomLoginKit_Example */,
-				607FACE41AFB9204008FA782 /* YomLoginKit_Tests */,
+				607FACCF1AFB9204008FA782 /* LoginKit_Example */,
+				607FACE41AFB9204008FA782 /* LoginKit_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,9 +260,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E979AEEB22D74F6300DF35F3 /* Localizable.strings in Resources */,
+				E9D2A94D22D6411C007B5418 /* Images.xcassets in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,11 +292,31 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YomLoginKit_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LoginKit_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47A3CF11B9CA6D07F5A82E06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginKit_Example/Pods-LoginKit_Example-resources.sh",
+				"${PODS_ROOT}/AccountKit/AccountKitStrings.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/LoginKit/LoginKit.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccountKitStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LoginKit.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginKit_Example/Pods-LoginKit_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6C7595A559EE3D0006C98C58 /* [CP] Embed Pods Frameworks */ = {
@@ -290,16 +325,26 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YomLoginKit_Example/Pods-YomLoginKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YomLoginKit/YomLoginKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-LoginKit_Example/Pods-LoginKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AnimatedField/AnimatedField.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/IHProgressHUD/IHProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YomLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnimatedField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YomLoginKit_Example/Pods-YomLoginKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginKit_Example/Pods-LoginKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E7B3C7951A26352FE84DF90E /* [CP] Check Pods Manifest.lock */ = {
@@ -317,7 +362,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YomLoginKit_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LoginKit_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,8 +376,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				E9D2A94222D6359F007B5418 /* AppDelegate.swift in Sources */,
+				E9D2A94522D6359F007B5418 /* MockServer.swift in Sources */,
+				E9D2A94322D6359F007B5418 /* ViewController.swift in Sources */,
+				E9D2A94B22D63B8F007B5418 /* AvatarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +396,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* YomLoginKit_Example */;
+			target = 607FACCF1AFB9204008FA782 /* LoginKit_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -359,6 +406,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				607FACDA1AFB9204008FA782 /* Base */,
+				E979AEE922D74C4500DF35F3 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -371,13 +419,24 @@
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
+		E9D2A95522D7386D007B5418 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D2A95422D7386D007B5418 /* en */,
+				E979AEEA22D74C4600DF35F3 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D2A94722D635C3007B5418 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -386,12 +445,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -419,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -429,8 +490,10 @@
 		};
 		607FACEE1AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D2A94722D635C3007B5418 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -439,12 +502,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -465,7 +530,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -475,13 +540,13 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 910E98BF98889F6E1ADCBB18 /* Pods-YomLoginKit_Example.debug.xcconfig */;
+			baseConfigurationReference = C1342A84A9FBFEF7D04762F8 /* Pods-LoginKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = YomLoginKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LoginKit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.yom.loginkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -490,13 +555,13 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5A9185173D3B65C099EC4B4 /* Pods-YomLoginKit_Example.release.xcconfig */;
+			baseConfigurationReference = 682E2DA7A663EE5CCCFE4373 /* Pods-LoginKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = YomLoginKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LoginKit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.yom.loginkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -505,7 +570,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4527D3066620019797A6856B /* Pods-YomLoginKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = 929AE0D0C6935DA4901D6E67 /* Pods-LoginKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -521,13 +586,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YomLoginKit_Example.app/YomLoginKit_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginKit_Example.app/LoginKit_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51BECE4E2C9FACE13243D8D9 /* Pods-YomLoginKit_Tests.release.xcconfig */;
+			baseConfigurationReference = EF3CFC9F513412C29B115C8C /* Pods-LoginKit_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -539,14 +604,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YomLoginKit_Example.app/YomLoginKit_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginKit_Example.app/LoginKit_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "YomLoginKit" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "LoginKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -555,7 +620,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "YomLoginKit_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LoginKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -564,7 +629,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "YomLoginKit_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LoginKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

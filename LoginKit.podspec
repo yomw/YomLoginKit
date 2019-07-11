@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'YomLoginKit'
+  s.name             = 'LoginKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YomLoginKit.'
+  s.summary          = 'A short description of LoginKit.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,27 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yomw/YomLoginKit'
+  s.homepage         = 'https://github.com/yomw/LoginKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yomw' => 'guillaume.bellue@dv.fr' }
-  s.source           = { :git => 'https://github.com/yomw/YomLoginKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yomw/LoginKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'YomLoginKit/Classes/**/*'
+  s.source_files = 'LoginKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'YomLoginKit' => ['YomLoginKit/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'LoginKit' => ['LoginKit/Localization/*.lproj']
+  }
+  # s.preserve_paths = "LoginKit/Localization/*.lproj"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.static_framework = true
+  s.dependency 'AccountKit', '~> 5.0'
+  s.dependency 'FacebookCore', '~> 0.7'
+  s.dependency 'FacebookLogin', '~> 0.7'
+  s.dependency 'AnimatedField', '~> 2.2'
 end

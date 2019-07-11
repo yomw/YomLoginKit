@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  LoginKit
+
+  Created by Guillaume Bellue on 11/07/2019.
+  Copyright © 2019 CocoaPods. All rights reserved.
+*/
+
+"LoginKit.Common.close" = "fermer";
+"LoginKit.Common.ok" = "OK";
+"LoginKit.Common.or" = "ou";
+"LoginKit.Common.error" = "Erreur";
+
+"LoginKit.Reset.title" = "Réinitialiser";
+
+"LoginKit.Signin.title" = "Connexion";
+"LoginKit.Signin.native" = "Connexion";
+"LoginKit.Signin.facebook" = "Connexion avec Facebook";
+"LoginKit.Signin.accountKit" = "Connexion avec AccountKit";
+"LoginKit.Signin.signup" = "Créer un compte";
+"LoginKit.Signin.reset" = "Mot de passe oublié";
+
+"LoginKit.Signup.title" = "Inscription";
+"LoginKit.Signup.native" = "Inscription";
+"LoginKit.Signup.facebook" = "Inscription avec Facebook";
+"LoginKit.Signup.accountKit" = "Inscription avec AccountKit";
+"LoginKit.Signup.signin" = "J'ai déjà un compte";
+
+"LoginKit.Placeholder.email" = "Email";
+"LoginKit.Placeholder.reset" = "Email";
+"LoginKit.Placeholder.password" = "Mot de passe";
+
+"LoginKit.Error.empty" = "%@ doit être rempli";
+"LoginKit.Error.invalid" = "%@ n'est pas valide";
