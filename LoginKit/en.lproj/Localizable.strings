@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  LoginKit
+
+  Created by Guillaume Bellue on 18/07/2019.
+  Copyright © 2019 Guillaume Bellue. All rights reserved.
+*/
+
+"Enter" = "Enter";
+
+"LoginKit.Common.ok" = "OK";
+"LoginKit.Common.or" = "OR";
+"LoginKit.Common.error" = "Error";
+
+"LoginKit.Reset.title" = "Reset password";
+
+"LoginKit.Signin.title" = "Sign in";
+"LoginKit.Signin.native" = "Sign in";
+"LoginKit.Signin.using" = "Sign in using";
+"LoginKit.Signin.signup" = "Create account";
+"LoginKit.Signin.reset" = "I forgot my password";
+
+"LoginKit.Signup.title" = "Sign up";
+"LoginKit.Signup.native" = "Sign up";
+"LoginKit.Signup.using" = "Sign up using";
+"LoginKit.Signup.signin" = "I already have an account";
+
+"LoginKit.Placeholder.email" = "Email";
+"LoginKit.Placeholder.reset" = "Email";
+"LoginKit.Placeholder.password" = "Password";
+
+"LoginKit.Error.empty" = "%@ cannot be empty";
+"LoginKit.Error.invalid" = "%@ is not valid";

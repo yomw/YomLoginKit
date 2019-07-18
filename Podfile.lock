@@ -1,0 +1,71 @@
+PODS:
+  - AccountKit (5.0.1)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FacebookCore (0.5.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit (~> 4.37)
+  - FacebookLogin (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.37)
+    - FBSDKLoginKit (~> 4.37)
+  - FBSDKCoreKit (4.38.1):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.38.1):
+    - FBSDKCoreKit
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.1):
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+  - GoogleToolboxForMac/Defines (2.2.1)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.1)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.1)
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.1)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.1)"
+  - GTMSessionFetcher/Core (1.2.2)
+  - IHProgressHUD (0.1.4)
+
+DEPENDENCIES:
+  - AccountKit (= 5.0.1)
+  - FacebookLogin (= 0.5)
+  - FBSDKCoreKit (= 4.38.1)
+  - FBSDKLoginKit (= 4.38.1)
+  - GoogleSignIn (= 4.4)
+  - IHProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AccountKit
+    - Bolts
+    - FacebookCore
+    - FacebookLogin
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - IHProgressHUD
+
+SPEC CHECKSUMS:
+  AccountKit: d05258857e74b04386c263a1365b27dbb5ff62b9
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FacebookCore: 74288d0add931d361b1596beae787ab72c438249
+  FacebookLogin: ebcf34714a1cb9f0759d9f071cfb01ed500996cf
+  FBSDKCoreKit: 8d47857400e2f5bdea697a80daff882e91c84ef6
+  FBSDKLoginKit: 4621c690d9dd8628031a4791497062183ea34b0d
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: b3553629623a3b1bff17f555e736cd5a6d95ad55
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  IHProgressHUD: a01846bfbb581c761c79747c67b08387c3bdfae3
+
+PODFILE CHECKSUM: 622138a59161aa0f9a32c2ac20762aabd8f56812
+
+COCOAPODS: 1.7.2
